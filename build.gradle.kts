@@ -14,8 +14,8 @@ repositories {
 
 dependencies {
     testImplementation("org.jetbrains.kotlin:kotlin-test:1.7.10")
-    implementation("com.hashicorp:cdktf:0.12.1")
-    implementation("com.hashicorp:cdktf-provider-docker:2.0.34")
+    implementation("com.hashicorp:cdktf:0.12.2")
+    implementation("com.hashicorp:cdktf-provider-docker:2.0.38")
     implementation("software.constructs:constructs:10.1.88")
     implementation("org.junit.jupiter:junit-jupiter:5.9.0")
 }
