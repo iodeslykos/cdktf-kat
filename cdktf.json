@@ -1,0 +1,12 @@
+{
+  "language": "java",
+  "app": "./gradleW -q run",
+  "sendCrashReports": "false",
+  "codeMakerOutput": "src/main/java/imports",
+  "terraformProviders": [],
+  "terraformModules": [],
+  "context": {
+    "excludeStackIdFromLogicalIds": "true",
+    "allowSepCharsInLogicalIds": "true"
+  }
+}

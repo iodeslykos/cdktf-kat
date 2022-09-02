@@ -1,0 +1,32 @@
+# Typical files.
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# On root of mounted volumes.
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+
+# Project/IDE configurations.
+*.iml
+.idea
+.settings
+.vscode/
+.project/
+
+# Terraform/cdktf
+.terraform
+cdktf.out
+cdktf.log
+*terraform.*.tfstate*
+
+# Tokens, logs, and etc.
+config.json
+logs/*.log
+out/
+.gradle/
+target/
+build/
