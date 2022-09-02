@@ -1,15 +1,14 @@
 # `{ cdktf-kat }`
 
----
-
 ## CDK for Terraform - Kotlin App Template
 
 ## Overview:
 
 ### This repository contains a template for an example app created with `cdktf` or [Cloud Development Kit for Terraform](https://www.terraform.io/cdktf).
-At current, it will deploy a Docker container locally running Nginx, though you are free to use it as a base to create whatever resources you choose. 
 
 The project is written in [Kotlin](https://kotlinlang.org/) with [Gradle](https://gradle.org) as a build tool and utilizes the Java version of `cdktf`.
+
+At current, it will deploy a Docker container locally running Nginx, though you are free to use it as a template to create whatever resources you choose. 
 
 ## Usage:
 
