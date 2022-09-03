@@ -1,33 +1,27 @@
-# `{ cdktf-kat }`
-
-## CDK for Terraform - Kotlin App Template
+# CDK for Terraform - Kotlin App Template
 
 ## Overview:
 
-### This repository contains a template for an example app created with `cdktf` or [Cloud Development Kit for Terraform](https://www.terraform.io/cdktf).
+This repository contains a template for an demo app created with [Cloud Development Kit for Terraform](https://www.terraform.io/cdktf) or `cdktf`. The project is written in [Kotlin](https://kotlinlang.org/), uses [Gradle](https://gradle.org) as a build tool, and utilizes the Java version of `cdktf`.
 
-The project is written in [Kotlin](https://kotlinlang.org/) with [Gradle](https://gradle.org) as a build tool and utilizes the Java version of `cdktf`.
+> At current, the application contains a single module that will deploy a Docker container running Nginx locally. Feel free to use it as a reference or a base for whatever you'd like to build.
 
-At current, it will deploy a Docker container locally running Nginx, though you are free to use it as a template to create whatever resources you choose. 
+## Requirements:
 
-## Usage:
-
-### Requirements:
-
-#### - Docker: https://www.docker.com/products/docker-desktop/
-#### - Node.js ( >= v16.17.0 LTS recommended ) : https://nodejs.org/en/
-  - Homebrew on MacOS: `brew install node@16` 
-#### - Terraform CLI: https://learn.hashicorp.com/tutorials/terraform/install-cli
-  - Homebrew on MacOS: `brew install terraform`
-#### - CDK for Terraform: 
-  - Homebrew on MacOS: `brew install cdktf`
-
-### Setup:
-
-%
+- **Docker** 
+  - [Download](https://www.docker.com/products/docker-desktop/)
+- **Node.js** (v16 LTS recommended)
+  - [Download](https://nodejs.org/en/)
+  - Homebrew (MacOS): `brew install node@16`
+- **Terraform CLI**
+  - [Download](https://www.terraform.io/downloads)
+  - Homebrew (MacOS): `brew install terraform`
+- **CDK for Terraform**
+  - npm: `npm install --global cdktf-cli@latest` 
+  - Homebrew (MacOS): `brew install cdktf`
 
 ## Roadmap:
 
 - [X] Add a LICENSE (Mozilla Public License Version 2.0)
 - [ ] Complete README.md and other relevant documentation.
-- [ ] Incorporate examples of unit testing.
+- [ ] Include examples of proper unit testing.
