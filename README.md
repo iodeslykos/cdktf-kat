@@ -2,7 +2,7 @@
 
 ## Overview:
 
-This repository contains a template for an demo app created with [Cloud Development Kit for Terraform](https://www.terraform.io/cdktf) or `cdktf`. The project is written in [Kotlin](https://kotlinlang.org/), uses [Gradle](https://gradle.org) as a build tool, and utilizes the Java version of `cdktf`.
+This repository contains a template for a demo app created with [Cloud Development Kit for Terraform](https://www.terraform.io/cdktf) or `cdktf`. The project is written in [Kotlin](https://kotlinlang.org/), uses [Gradle](https://gradle.org) as a build tool, and utilizes the Java version of `cdktf`.
 
 > At current, the application contains a single module that will deploy a Docker container running Nginx locally. Feel free to use it as a reference or a base for whatever you'd like to build.
 
@@ -24,4 +24,4 @@ This repository contains a template for an demo app created with [Cloud Developm
 
 - [X] Add a LICENSE (Mozilla Public License Version 2.0)
 - [ ] Complete README.md and other relevant documentation.
-- [ ] Include examples of proper unit testing.
+- [X] Include examples of unit testing.
