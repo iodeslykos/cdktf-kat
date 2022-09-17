@@ -11,11 +11,17 @@ This repository contains a template for a demo app created with [Cloud Developme
 ### Installation with [Homebrew](https://brew.sh/), package manager for macOS (or Linux).
 
 ```
-brew install node@16 cdktf terraform docker
+brew install kotlin node@16 cdktf terraform docker
 ```
+
+##### Note: `openjdk@latest` will be installed a dependency of `kotlin` via Homebrew, though you are free to target the JDK of your choice for compilation.
 
 ###  Manual installation:
 
+- **OpenJDK**
+  - [Download](https://openjdk.org/)
+- **Kotlin**
+  - [Download](https://kotlinlang.org/docs/command-line.html)
 - **Docker** 
   - [Download](https://www.docker.com/products/docker-desktop/)
 - **Node.js** (v16 LTS recommended)
