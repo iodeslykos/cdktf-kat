@@ -17,7 +17,7 @@ dependencies {
     implementation("com.hashicorp:cdktf:0.21.0-pre.24")
     implementation("com.hashicorp:cdktf-provider-docker:2.0.80")
     implementation("software.constructs:constructs:10.1.98")
-    implementation("org.junit.jupiter:junit-jupiter:5.9.0")
+    implementation("org.junit.jupiter:junit-jupiter:5.10.1")
 }
 
 tasks.test {
