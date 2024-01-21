@@ -4,7 +4,6 @@
     "config:recommended"
   ],
   "semanticCommits": "enabled",
-  "semanticCommitScope": "deps",
-  "semanticCommitType": "chore",
-  "assigneesFromCodeOwners": true
+  "assigneesFromCodeOwners": true,
+  "timezone": "Etc/UTC"
 }
