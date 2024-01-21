@@ -3,7 +3,8 @@
   "extends": [
     "config:recommended"
   ],
-  "semanticCommits": "enabled",
   "assigneesFromCodeOwners": true,
+  "dependencyDashboardTitle": "renovatebot: Dependency Dashboard",
+  "semanticCommits": "enabled",
   "timezone": "Etc/UTC"
 }
