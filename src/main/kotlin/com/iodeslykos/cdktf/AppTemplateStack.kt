@@ -1,10 +1,10 @@
 package com.iodeslykos.cdktf
 
 import com.hashicorp.cdktf.TerraformStack
-import com.hashicorp.cdktf.providers.docker.Container
-import com.hashicorp.cdktf.providers.docker.ContainerPorts
-import com.hashicorp.cdktf.providers.docker.DockerProvider
-import com.hashicorp.cdktf.providers.docker.Image
+import com.hashicorp.cdktf.providers.docker.container.Container
+import com.hashicorp.cdktf.providers.docker.container.ContainerPorts
+import com.hashicorp.cdktf.providers.docker.image.Image
+import com.hashicorp.cdktf.providers.docker.provider.DockerProvider
 import software.constructs.Construct
 
 
