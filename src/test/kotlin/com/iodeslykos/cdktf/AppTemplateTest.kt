@@ -3,8 +3,8 @@ package com.iodeslykos.cdktf
 import com.hashicorp.cdktf.App
 import com.hashicorp.cdktf.TerraformStack
 import com.hashicorp.cdktf.Testing
-import com.hashicorp.cdktf.providers.docker.Container
-import com.hashicorp.cdktf.providers.docker.Image
+import com.hashicorp.cdktf.providers.docker.container.Container
+import com.hashicorp.cdktf.providers.docker.image.Image
 import org.junit.jupiter.api.Assertions
 import org.junit.jupiter.api.Test
 
